@@ -1,0 +1,2 @@
+[functions.demo-request]
+verify_jwt = false

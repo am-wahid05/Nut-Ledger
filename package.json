@@ -1,0 +1,13 @@
+{
+  "name": "mi-tech-business-management-system-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static marketing website for Business Management System by MI TECH",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "supabase": "^2.120.0"
+  }
+}
