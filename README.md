@@ -1,6 +1,6 @@
-# Business Management System — MI TECH website
+# Nut Ledger website
 
-A responsive static marketing website for MI TECH's Business Management System. The website is separate from the Flutter application and has no runtime package dependencies.
+A responsive static marketing website for Nut Ledger. The website is separate from the Flutter application and has no runtime package dependencies.
 
 ## Run locally
 
@@ -49,7 +49,7 @@ The migration at `supabase/migrations/202606160001_demo_requests.sql` creates th
 
 ### 3. Configure administrator email delivery
 
-Create a Resend account, verify a sender domain there, and choose a sender address on that verified domain. The configured recipient defaults to `amwahid005@gmail.com`; you can explicitly set it below. Since MI TECH does not yet have a website domain, email delivery is not ready until a sender domain is verified with the email provider.
+Create a Resend account, verify a sender domain there, and choose a sender address on that verified domain. The configured recipient defaults to `amwahid005@gmail.com`; you can explicitly set it below. Since Nut Ledger does not yet have a website domain, email delivery is not ready until a sender domain is verified with the email provider.
 
 Set the Edge Function secrets from PowerShell. Replace each example value locally; never put these values in `assets/site-config.js`, HTML, or source control:
 
@@ -57,7 +57,7 @@ Set the Edge Function secrets from PowerShell. Replace each example value locall
 supabase secrets set `
   ADMIN_NOTIFICATION_EMAIL="amwahid005@gmail.com" `
   RESEND_API_KEY="YOUR_RESEND_API_KEY" `
-  RESEND_FROM_EMAIL="MI TECH <demo@YOUR_VERIFIED_SENDER_DOMAIN>" `
+  RESEND_FROM_EMAIL="Nut Ledger <demo@YOUR_VERIFIED_SENDER_DOMAIN>" `
   RATE_LIMIT_SECRET="GENERATE_A_LONG_RANDOM_SECRET" `
   ALLOWED_ORIGINS="http://127.0.0.1:4173,http://localhost:4173"
 ```
@@ -93,7 +93,7 @@ npm.cmd run build
 
 With the local server running, submit a test request using details you control. Check that the page shows an in-page confirmation and resets only after the save and email notification both succeed. Check the `demo_requests` table in the Supabase dashboard and confirm the administrator email arrives. Also test a malformed request, a honeypot-filled request and the rate limit; do not test with real supplier information. The function permits five requests per network address in a 15-minute window.
 
-If a request is saved but the email provider fails, the page says so and retains the form. Retrying the same unchanged form reuses its submission ID. Fix the provider configuration and retry, or contact MI TECH to follow up on the already-saved request. An email sender domain and live Supabase project are required for end-to-end verification.
+If a request is saved but the email provider fails, the page says so and retains the form. Retrying the same unchanged form reuses its submission ID. Fix the provider configuration and retry, or contact Nut Ledger to follow up on the already-saved request. An email sender domain and live Supabase project are required for end-to-end verification.
 
 ## Pages
 
@@ -104,7 +104,7 @@ If a request is saved but the email provider fails, the page says so and retains
 - `pricing.html` — Pricing
 - `faq.html` — FAQ
 - `demo.html` — Request a Demo
-- `about.html` — About MI TECH
+- `about.html` — About Nut Ledger
 - `privacy.html` — Privacy Policy (draft for legal review)
 - `terms.html` — Terms of Service (draft for legal review)
 - `cookies.html` — Cookie Policy (draft for legal review)
@@ -149,5 +149,5 @@ Screenshots and captions show the original interface. The homepage uses the actu
 - Business plan: GH₵250/month after a 30-day free trial.
 - Secretary bundle: three secretaries for GH₵75/month.
 - SMS: GH₵0.05 per message; credits are separate.
-- Subscription grace-period, access-restriction, data-retention, and off-season statements are limited to the product behavior provided by MI TECH.
+- Subscription grace-period, access-restriction, data-retention, and off-season statements are limited to the product behavior provided by Nut Ledger.
 - No customer testimonials, statistics, certifications, integrations or unsupported security guarantees are claimed.

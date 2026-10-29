@@ -13,7 +13,7 @@ const footerPages = [
   ["Pricing", "pricing.html"],
   ["FAQ", "faq.html"],
   ["Request a Demo", "demo.html"],
-  ["About MI TECH", "about.html"],
+  ["About Nut Ledger", "about.html"],
   ["Contact", "contact.html"],
   ["Privacy Policy", "privacy.html"],
   ["Terms of Service", "terms.html"],
@@ -29,9 +29,9 @@ const activeLink = (label, href) => {
 document.querySelector("[data-site-header]").innerHTML = `
   <div class="site-header">
     <div class="nav-wrap">
-      <a class="brand" href="index.html" aria-label="MI TECH, Business Management System home">
-        <span class="brand-mark" aria-hidden="true"><span>MI</span><i></i></span>
-        <span class="brand-copy"><strong>MI TECH</strong><span>BUSINESS MANAGEMENT SYSTEM</span></span>
+      <a class="brand" href="index.html" aria-label="Nut Ledger home">
+        <span class="brand-mark" aria-hidden="true"><span>NL</span><i></i></span>
+        <span class="brand-copy"><strong>NUT LEDGER</strong><span>COMMODITY OPERATIONS PLATFORM</span></span>
       </a>
       <nav class="nav-links" id="primary-navigation" aria-label="Main navigation">
         ${pages.map(([label, href]) => activeLink(label, href)).join("")}
@@ -49,12 +49,12 @@ document.querySelector("[data-site-footer]").innerHTML = `
       <div class="footer-main">
         <div class="footer-brand">
           <a class="brand" href="index.html">
-            <span class="brand-mark" aria-hidden="true"><span>MI</span><i></i></span>
-            <span class="brand-copy"><strong>MI TECH</strong><span>BUSINESS MANAGEMENT SYSTEM</span></span>
+            <span class="brand-mark" aria-hidden="true"><span>NL</span><i></i></span>
+            <span class="brand-copy"><strong>NUT LEDGER</strong><span>COMMODITY OPERATIONS PLATFORM</span></span>
           </a>
-          <p class="footer-promise">Manage Your Business. Know Your Numbers. Grow With Confidence.</p>
-          <p>For the people who buy, weigh and keep produce moving.</p>
-          <p>Business management for agricultural and raw-product businesses.</p>
+          <p class="footer-promise">From the warehouse scale to the boardroom.</p>
+          <p>Digitizing agricultural commodity operations in Ghana.</p>
+          <p>Real-time warehouse records, executive dashboards and automated financial reporting for commodity buyers and aggregators.</p>
           <a class="footer-demo-link" href="demo.html">Let's talk about your operation <span aria-hidden="true">↗</span></a>
         </div>
         <div class="footer-col">
@@ -66,13 +66,13 @@ document.querySelector("[data-site-footer]").innerHTML = `
         <div class="footer-col footer-contact">
           <h2><span>02</span> Get in touch</h2>
           <div class="contact-icon-links" aria-label="Direct contact options">
-            <a href="https://wa.me/233594528561" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp MI TECH at 0594528561" title="WhatsApp: 0594528561">
+            <a href="https://wa.me/233594528561" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Nut Ledger at 0594528561" title="WhatsApp: 0594528561">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 0 0-8.49 15l-1.3 4.73 4.85-1.27A9.95 9.95 0 1 0 12.04 2Zm0 18.1a8.1 8.1 0 0 1-4.13-1.13l-.3-.18-2.88.76.77-2.8-.2-.31A8.1 8.1 0 1 1 12.04 20.1Zm4.45-6.07c-.24-.12-1.43-.7-1.65-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.95-1.2-.72-.64-1.2-1.43-1.34-1.67-.14-.24-.01-.37.1-.49.1-.1.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.46-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.31.98 2.47c.12.16 1.68 2.56 4.07 3.59.57.25 1.02.4 1.37.5.58.19 1.11.16 1.53.1.47-.07 1.43-.58 1.63-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28Z"/></svg>
             </a>
-            <a href="mailto:amwahid005@gmail.com" aria-label="Email MI TECH at amwahid005@gmail.com" title="Email: amwahid005@gmail.com">
+            <a href="mailto:amwahid005@gmail.com" aria-label="Email Nut Ledger at amwahid005@gmail.com" title="Email: amwahid005@gmail.com">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z"/><path fill="currentColor" d="m4 6 8 5 8-5" opacity=".45"/></svg>
             </a>
-            <a href="tel:+233530466346" aria-label="Call MI TECH at 0530466346" title="Phone: 0530466346">
+            <a href="tel:+233530466346" aria-label="Call Nut Ledger at 0530466346" title="Phone: 0530466346">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.56 3.57.56.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.61 21 3 13.39 3 4c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.56 3.57a1 1 0 0 1-.25 1.02l-2.19 2.2Z"/></svg>
             </a>
           </div>
@@ -89,7 +89,7 @@ document.querySelector("[data-site-footer]").innerHTML = `
           </div>
         </div>
       </div>
-      <div class="footer-bottom"><p>© <span data-year></span> MI TECH. Business Management System.</p><p><a href="cookies.html">Cookie Policy</a></p></div>
+      <div class="footer-bottom"><p>© <span data-year></span> Nut Ledger. All rights reserved.</p><p><a href="cookies.html">Cookie Policy</a></p></div>
     </div>
   </div>
 `;
@@ -253,7 +253,7 @@ if (demoForm) {
       showDemoResult(
         "error",
         "Demo requests aren't connected yet.",
-        "MI TECH still needs to connect this form to its Supabase project. Your details have not been sent or saved.",
+        "Nut Ledger still needs to connect this form to its Supabase project. Your details have not been sent or saved.",
         true
       );
       return;
@@ -296,7 +296,7 @@ if (demoForm) {
       showDemoResult(
         "error",
         "We couldn't reach the request service.",
-        "Your form is still here. Check your connection and try again. If the problem continues, email MI TECH.",
+        "Your form is still here. Check your connection and try again. If the problem continues, email Nut Ledger.",
         true
       );
       submitButton.disabled = false;
@@ -318,7 +318,7 @@ if (demoForm) {
       pendingSubmissionSignature = "";
       showDemoResult(
         "success",
-        "Thanks — your request is with MI TECH.",
+        "Thanks — your request is with Nut Ledger.",
         "We've received your demo request and will use the contact details you provided to follow up."
       );
       submitButton.disabled = false;
@@ -331,21 +331,21 @@ if (demoForm) {
       showDemoResult(
         "error",
         "Your request was saved, but the email alert didn't go through.",
-        "Your details are safely recorded. Please email MI TECH directly as well; you can retry this request without creating a duplicate.",
+        "Your details are safely recorded. Please email Nut Ledger directly as well; you can retry this request without creating a duplicate.",
         true
       );
     } else if (response.status === 429) {
       showDemoResult(
         "error",
         "Please wait before trying again.",
-        "We received several requests from this connection. Please try again in about 15 minutes, or contact MI TECH directly.",
+        "We received several requests from this connection. Please try again in about 15 minutes, or contact Nut Ledger directly.",
         true
       );
     } else {
       showDemoResult(
         "error",
         "We couldn't submit your request.",
-        "Your form is still here. Please try again in a moment, or email MI TECH directly if the problem continues.",
+        "Your form is still here. Please try again in a moment, or email Nut Ledger directly if the problem continues.",
         true
       );
     }
