@@ -122,7 +122,7 @@ async function notifyAdmin(
   sender: string,
 ): Promise<boolean> {
   const message = [
-    "A new Business Management System demo request was submitted.",
+    "A new Nut Ledger demo request was submitted.",
     "",
     `Name: ${request.full_name}`,
     `Business: ${request.business_name}`,
@@ -148,7 +148,7 @@ async function notifyAdmin(
         from: sender,
         to: [adminEmail],
         reply_to: request.email,
-        subject: "New Business Management System demo request",
+        subject: "New Nut Ledger demo request",
         text: message,
       }),
     });
