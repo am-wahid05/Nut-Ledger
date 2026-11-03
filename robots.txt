@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://nutledger.netlify.app/sitemap.xml
+
+Sitemap: https://nutledger.vercel.app/sitemap.xml
