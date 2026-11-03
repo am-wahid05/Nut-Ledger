@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://YOUR_DOMAIN_HERE/sitemap.xml
-# Replace YOUR_DOMAIN_HERE after purchasing a domain.
+Sitemap: https://nutledger.netlify.app/sitemap.xml
